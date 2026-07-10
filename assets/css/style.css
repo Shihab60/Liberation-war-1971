@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+footer {
+  background-image: url(../img/footer1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 100% 100%;
+  min-height: 250px;
+  width: 100%;
+  color: #ffffff;
+}
+
+/* #banner {
+    background-image: url(../img/b.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;    
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+} */
+#banner {
+  background: #252628bf url(../img/b.jpg) no-repeat center center / cover;
+  background-blend-mode: multiply;
+  color: white;
+  text-align: center;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#banner .head {
+  margin: 0 auto;
+
+  /* পিসিতে লেখাটি যেন অতিরিক্ত চওড়া হয়ে স্ক্রিন জুড়ে ছড়িয়ে না যায় */
+  max-width: 800px;
+
+  /* উইথ ১০০% থাকবে যাতে ছোট স্ক্রিনে সুন্দরভাবে ফিট হতে পারে */
+  width: 100%;
+}
+#Featured .card {
+  transition: 0.4s;
+}
+#Featured .card:hover {
+  background-color: rgba(8, 112, 8, 0.589);
+}
+#bred {
+  background-image: url(../img/bred.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 100%;
+  height: 40vh;
+
+  align-content: center;
+}
+#bred .head p a {
+  text-decoration: none;
+  color: white;
+}
+#catagori .card {
+  transition: 0.4s;
+}
+#catagori .card:hover {
+  background-color: rgba(204, 10, 10, 0.589);
+}
+#tabs img {
+  transition: 0.4s;
+}
+#tabs img:hover {
+  transform: scale(1.1);
+}
